@@ -1,0 +1,20 @@
+{
+  "name": "Arthiq - Smart Wealth & Expense Intelligence",
+  "short_name": "Arthiq",
+  "description": "Understand your money. Control your future with Arthiq AI expense and wealth intelligence.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity", "utilities"]
+}

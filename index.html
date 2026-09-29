@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Arthiq - Smart Wealth & Expense Intelligence</title>
+    <meta name="description" content="Smart wealth & expense intelligence. A modern personal finance companion with AI insights, real-time budgeting, and multi-currency tracking." />
+    <meta property="og:title" content="Arthiq - Smart Wealth & Expense Intelligence" />
+    <meta property="og:description" content="Smart wealth & expense intelligence. A modern personal finance companion with AI insights, real-time budgeting, and multi-currency tracking." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arthiq - Smart Wealth & Expense Intelligence" />
+    <meta name="twitter:description" content="Smart wealth & expense intelligence. A modern personal finance companion with AI insights, real-time budgeting, and multi-currency tracking." />
+    <meta name="theme-color" content="#059669" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Arthiq" />
+    <meta name="application-name" content="Arthiq" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Arthiq",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "All",
+      "description": "Smart wealth & expense intelligence. A modern personal finance companion with AI insights, real-time budgeting, and multi-currency tracking."
+    }
+    </script>
+    <script>
+      (function() {
+        try {
+          var profile = JSON.parse(localStorage.getItem('spendly_user_profile') || '{}');
+          if (profile.darkMode === true || profile.theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased selection:bg-emerald-500/20 selection:text-emerald-700 dark:bg-slate-950 dark:text-slate-100 dark:selection:bg-emerald-500/30 dark:selection:text-emerald-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

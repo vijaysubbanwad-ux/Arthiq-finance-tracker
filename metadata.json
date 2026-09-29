@@ -1,0 +1,6 @@
+{
+  "name": "Arthiq",
+  "description": "Smart wealth & expense intelligence. A modern personal finance companion with AI insights, real-time budgeting, and multi-currency tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
